@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:display="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Sơ yếu lý lịch</title>
+
+</head>
+<body>
+<form>
+    <div id="container">
+        <!--    Phần đầu của sơ yếu lý lịch-->
+        <div id="header" style="display: flex;flex-direction:row"> <!--Chia phần đầu theo dòng-->
+            <div id="photo" style="flex:1">
+                <img src="https://static2.yan.vn/YanNews/202005/202005220338189768-647d9973-107b-40e3-b2bb-647ae67bf99b.png"
+                     alt="error" width="200">
+                <div id="input">
+                    <input type="file">
+                </div>
+            </div>
+            <div id="quoc_hieu" style="display:flex; flex:3;flex-direction: column">
+                <div id="cong_hoa" display: style="flex:1">
+                    <p> CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM<br> <b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp;
+                        <u>Độc lập - Tự do - Hạnh phúc </u></b></p>
+                </div>
+                <p><b>SƠ YẾU LÝ LỊCH</b></p>
+                <p><i>Tự thuật</i></p>
+                <div id="tieu_de" style="display: flex; flex:1">
+                </div>
+            </div>
+        </div>
+        <div id="infor">
+            <fieldset>
+                <legend>THÔNG TIN BẢN THÂN</legend>
+                Họ tên: <input type="text" name="hoten"><br>
+                Giới tính: <input type="radio" name="gioitinh" value="nam" checked> Nam
+                <input type="radio" name="gioitinh" value="nu">Nữ <br> Khác: &nbsp;
+                <input type="text" name="gioitinh"> <br>
+                Ngày sinh: <input type="date" name="ngaysinh"> <br>
+                Nơi sinh: <select name="noisinh" id=""> <br>
+                <option value="Thái Nguyên" selected>Thái Nguyên</option>
+                <option value="Hà Nội">Hà Nội</option>
+                <option value="Thái Bình">Thái Bình</option>
+                <option value="Thái Bình">Thái BÌnh</option>
+            </select>
+            </fieldset>
+        </div>
+    </div>
+    <ol type="I">
+        <li> THÔNG TIN CÁ NHÂN
+            <ol>
+                <li>Họ và tên (chữ in hoa) <input type="text" style="border: none" value="............................">Nam/
+                    Nữ <input type="text" style="border: none" value="............................"></li>
+                <li>Sinh ngày<input type="text" style="border: none" value="......">tháng <input type="text"
+                                                                                                 style="border: none"
+                                                                                                 value="....">năm<input
+                        type="text" style="border: none" value="....">Nơi sinh <input type="text" style="border: none"
+                                                                                      value="...."></li>
+                <li>Nguyên quán <input type="text" style="border: none" value="............................"></li>
+                <li>Nơi đăng ký hộ khẩu thường trú <input type="text" style="border: none"
+                                                          value="............................"></li>
+                <li>Chỗ ở hiện nay <input type="text" style="border: none" value="............................"></li>
+                <li>Điện thoại liên hệ:<input type="text" style="border: none" value="............................">
+                </li>
+                <li>Dân tộc <input type="text" style="border: none" value="............................">Tôn giáo<input
+                        type="text" style="border: none" value="............................"></li>
+                <li>Số chứng minh<input type="text" style="border: none" value=".....................">cấp ngày <input
+                        type="text" style="border: none" value="........">nơi cấp<input type="text" style="border: none"
+                                                                                        value=".........."></li>
+                <li>Trình độ văn hóa<input type="text" style="border: none" value="............................"></li>
+                <li>Sở trường:<input type="text" style="border: none" value="............................"></li>
+            </ol>
+        </li>
+        <li> QUAN HỆ GIA ĐÌNH (Ghi rõ họ tên, năm sinh, nghề nghiệp, nơi công tác của bố mẹ đẻ, anh chị em ruột)
+            <ol>
+                <li>Họ và tên cha:<input type="text" style="border: none" value="............................">
+                    <ul>
+                        <li>Năm sinh: <input type="text" style="border: none" value="............................"></li>
+                        <li>- Nghề nghiệp hiện nay:<input type="text" style="border: none"
+                                                          value="............................"></li>
+                        <li>- Cơ quan công tác :<input type="text" style="border: none"
+                                                       value="............................"></li>
+                        <li>Năm sinh:- Chỗ ở hiện nay:<input type="text" style="border: none"
+                                                             value="............................"></li>
+                    </ul>
+                </li>
+                <li> Họ và tên mẹ:<input type="text" style="border: none" value="............................">
+                    <ul>
+                        <li>Năm sinh: <input type="text" style="border: none" value="............................"></li>
+                        <li>- Nghề nghiệp hiện nay:<input type="text" style="border: none"
+                                                          value="............................"></li>
+                        <li>- Cơ quan công tác : <input type="text" style="border: none"
+                                                        value="............................"></li>
+                        <li>Năm sinh:- Chỗ ở hiện nay: <input type="text" style="border: none"
+                                                              value="............................"></li>
+                    </ul>
+
+                </li>
+                </li>
+                <li> Họ và tên em trai: <input type="text" style="border: none" value="............................">
+                    <ul>
+                        <li>Năm sinh: <input type="text" style="border: none" value="............................"></li>
+                        <li>- Nghề nghiệp hiện nay: <input type="text" style="border: none"
+                                                           value="............................"></li>
+                        <li>- Cơ quan công tác : <input type="text" style="border: none"
+                                                        value="............................"></li>
+                        <li>Năm sinh:- Chỗ ở hiện nay: <input type="text" style="border: none"
+                                                              value="............................"></li>
+                    </ul>
+
+                </li>
+
+            </ol>
+        </li>
+        <li> TÓM TẮT QUÁ TRÌNH ĐÀO TẠO.
+
+            <table border="1px">
+                <tr style="border: 1px">
+                    <th style="text-align: center" width="150px">Từ tháng năm đến tháng năm</th>
+                    <th style="text-align: center" width="300px">Tên trường
+                        hoặc cơ sở đào tạo
+                    </th>
+                    <th style="text-align: center" width="150px">Ngành học</th>
+                    <th style="text-align: center" width="300px">Hình thức đào tạo</th>
+                    <th style="text-align: center" WIDTH="150px">Văn bằng chứng chỉ</th>
+                </tr>
+                <tr style="border: 1px">
+                    <td width="150px"><input type="text" style="border: none"></td>
+                    <td width="300px"><input type="text" style="border: none"></td>
+                    <td width="150px"><input type="text" style="border: none"></td>
+                    <td width="300px"><input type="text" style="border: none"></td>
+                    <td width="150px"><input type="text" style="border: none"></td>
+                </tr>
+                <tr style="border:1px">
+                    <td width="150px"><input type="text" style="border: none"></td>
+                    <td width="300px"><input type="text" style="border: none"></td>
+                    <td width="150px"><input type="text" style="border: none"></td>
+                    <td width="300px"><input type="text" style="border: none"></td>
+                    <td width="150px"><input type="text" style="border: none"></td>
+                </tr>
+                <tr style="border:1px">
+                    <td width="150px"><input type="text" style="border: none"></td>
+                    <td width="300px"><input type="text" style="border: none"></td>
+                    <td width="150px"><input type="text" style="border: none"></td>
+                    <td width="300px"><input type="text" style="border: none"></td>
+                    <td width="150px"><input type="text" style="border: none"></td>
+                </tr>
+                <tr style="border: 1px">
+                    <td width="150px"><input type="text" style="border: none"></td>
+                    <td width="300px"><input type="text" style="border: none"></td>
+                    <td width="150px"><input type="text" style="border: none"></td>
+                    <td width="300px"><input type="text" style="border: none"></td>
+                    <td width="150px"><input type="text" style="border: none"></td>
+                </tr>
+            </table>
+        </li>
+
+    </ol>
+
+</form>
+
+
+</body>
+</html>
+
